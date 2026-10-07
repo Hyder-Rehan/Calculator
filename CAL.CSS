@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    background-color: #1a2a2a;
+    position: relative;
+   
+   
+}
+h1{
+    color: white;
+    font-size: 5rem;
+    position: absolute;
+    top:5px;
+}
+.myBox{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: hsl(0, 0%, 15%);
+    max-width: 500px;
+    overflow: hidden;
+   border-radius: 15px;
+   border: 2px solid rgb(149, 27, 27);
+   height: 800px;
+  margin-top: 200px;
+
+  
+}
+input{
+  
+    width: 100%;
+    padding: 20px;
+    font-size: 5rem;
+    text-align: left;
+    border: none;
+     background-color: hsl(0, 0%, 20%);
+    border-radius: 15px;
+    color: white;
+    padding-bottom: 40px;
+}
+
+.mybutt{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    padding:25px ;
+    /* height: 200px; */
+    /* background-color: #1a1a1aa4; */
+    /* width: 70%; */
+    /* margin-top: 10px;
+     border-radius: 15px; */
+      /* margin: 20px; */
+}
+.mybutt button{
+    /* padding: 10px;
+    margin: 10px;
+    border-radius: 5px; */
+    height: 100px;
+    background-color: hsl(0, 0%, 30%);
+    font-size: 3rem;
+    width: 100px;
+    border-radius: 50%;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+#cancel{
+    background-color: hsl(0, 100%, 52%);
+}
+#equal{
+    background-color: rgb(93, 194, 93);
+}
+button:hover{
+    background-color: hsl(0, 0%, 40%);
+}
+button:active{
+     background-color: hsl(0, 0%, 50%);
+}
+.mybutt .add {
+    background-color: hsl(35, 100%, 55%);
+}
+
+.mybutt .add :hover{
+     background-color: hsl(35, 100%, 65%);
+}
+.mybutt .add :active{
+     background-color: hsl(35, 100%, 65%);
+}
