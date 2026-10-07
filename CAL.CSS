@@ -81,3 +81,32 @@ button:active{
 .mybutt .add :active{
      background-color: hsl(35, 100%, 65%);
 }
+
+
+@media (max-width: 600px) {
+
+    .myBox {
+        width: 95%;
+        height: auto;
+        margin-top: 0;
+    }
+
+    input {
+        width: 100%;
+        box-sizing: border-box;
+        font-size: 2.5rem;
+        padding: 15px;
+    }
+
+    .mybutt {
+        gap: 8px;
+        padding: 15px;
+    }
+
+    .mybutt button {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 1 / 1;
+        font-size: 2rem;
+    }
+}
